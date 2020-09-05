@@ -36,5 +36,6 @@ module.exports.up = (queryInterface, DataTypes) => {
   );
 };
 
-module.exports.down = (queryInterface) =>
+module.exports.down = (queryInterface) => {
   queryInterface.dropTable("userSession");
+};
