@@ -7,4 +7,4 @@ WORKDIR /opt/app
 
 RUN yarn
 
-CMD ["yarn watch","chmod rwx /opt/app"]
+CMD ["yarn watch"]
